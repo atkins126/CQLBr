@@ -1,14 +1,25 @@
- |  | 
-:----------------------------------------------------------------------| ----------------------------------------------------------------------------------------:| :-:
-![CQLBr Framework](https://www.isaquepinheiro.com.br/imagens/cqlbrbitucket.png)  | [![pageseguro.png](http://www.ormbr.com.br/imagens/pagseguro.png)](https://pag.ae/bglQrWD)|
+# CQLBr Library for Delphi/Lazarus
 
+Criteria Query Language is a library that provides writing through an interface, allowing the mapping of object-oriented syntax for performing database query, insert, update, and delete operations.
 
-# CQLBr Framework for Delphi/Lazaruz   [![License](https://img.shields.io/badge/Licence-LGPL--3.0-blue.svg)](https://opensource.org/licenses/LGPL-3.0)
+During software development, there is a clear concern about increasing productivity and maintaining compatibility. Regarding databases, in most cases, there is a compatibility break due to the need to write syntax that becomes specific to a particular database. This is where CQLBr comes in. It is designed so that query writing is unique for all databases. When generating a query with CQLBr, it allows you to switch between databases in a system without having to rewrite queries with specific details of the replaced database.
 
-**Criteria Query Language** é um framework que provê escritas através de uma interface permitindo mapear de forma orientada a objeto, toda sintaxe de comandos para realizar as operações de consulta, inclusão, alteração e exclusão em banco de dados.
+<p align="center">
+  <a href="https://www.isaquepinheiro.com.br">
+    <img src="https://github.com/HashLoad/CQLBr/blob/master/Images/cqlbr_framework.png" width="200" height="200">
+  </a>
+</p>
 
-Durante o desenvolvimento de software, é evidente a preocupação em que se tem em aumentar a produtividade e manter a compatibilidade. No que se refere a banco de dados, temos na maioria dos casos quebra de compatibilidade por necessidade de escrever sintaxe que acaba sendo particularidade de um determinado banco de dados, foi ai que CQLBr nasceu, ele foi projetado, para que a escrita de querys seja unica para todos os banco dados. Ao gerar uma query com CQLBr, ele irá te possibilitar mudar de banco de dados em um sistema, sem ter que refaturar querys com particularidades do banco substituído.
+## 🏛 Delphi versions
+Embarcadero Delphi XE and above.
 
+## ⚙️ Install
+Installation using [`boss install`]
+```sh
+boss install cqlbr
+```
+
+## ⚡️ How to use
 
 ### SELECT
 
@@ -122,13 +133,25 @@ Durante o desenvolvimento de software, é evidente a preocupação em que se tem
     .AsString);
 ```
 
-### Instalação ###
+## ✍️ License
+[![License](https://img.shields.io/badge/Licence-LGPL--3.0-blue.svg)](https://opensource.org/licenses/LGPL-3.0)
 
+## ⛏️ Contribution
 
-### Requisitos ###
-Embarcadero Delphi XE e superior ou Lazarus.
+Our team would love to receive contributions to this open-source project. If you have any ideas or bug fixes, feel free to open an issue or submit a pull request..
 
-### Versão Atual ###
-1.0.0 (18 Jul 2019)
+[![Issues](https://img.shields.io/badge/Issues-channel-orange)](https://github.com/HashLoad/ormbr/issues)
 
-Copyright (c) 2019 CQLBr Framework Team
+To submit a pull request, follow these steps:
+
+1. Fork the project
+2. Create a new branch (`git checkout -b my-new-feature`)
+3. Make your changes and commit (`git commit -am 'Adding new feature'`)
+4. Push the branch (`git push origin my-new-feature`)
+5. Open a pull request.
+
+## 📬 Contact
+[![Telegram](https://img.shields.io/badge/Telegram-channel-blue)](https://t.me/hashload)
+
+## 💲 Donation
+[![Doação](https://img.shields.io/badge/PagSeguro-contribua-green)](https://pag.ae/bglQrWD)
